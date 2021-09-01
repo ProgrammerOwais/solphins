@@ -9,15 +9,14 @@ export const HomeView = () => {
     <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Wonky Whales</title>
-        <link rel="icon" href="/images/favicon.jpg" />
+        <link rel="icon" href="/favicon-32x32.jpg" />
 
-        <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
-        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="ogdesc" />
+        <meta property="og:title" content="Wonky Whales" key="ogtitle" />
+        <meta property="og:description" content="Collection of 500 randomy generated whale NFTs built on the Solana blockchain" key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
-        <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
-        <meta property="og:site_name" content="https://boringbananas.co/" key="ogsitename" />
+        <meta property="og:url" content="https://www.wonkywhales.com" key="ogurl"/>
+        <meta property="og:image" content="https://www.wonkywhales.com/img/whales.gif" key="ogimage"/>
+        <meta property="og:site_name" content="https://www.wonkywhales.com" key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" key="twcard"/>
         <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />

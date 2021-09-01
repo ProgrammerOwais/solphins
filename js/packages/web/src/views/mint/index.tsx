@@ -18,7 +18,7 @@ export const MintView = () => {
                 <strong>LAUNCH DATE:</strong> 29 June 2021. 2pm EST. <br />‍
                 <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 8888</strong> Bananas.<br/><strong>PRICE: 0.025 ETH </strong>each.</span></p>
               </div>
-              <img className="lg:w-1/2 w-3/4" src="img/Hola.gif" width="500px" />
+              <img className="lg:w-1/2 w-3/4" src="img/whales.gif" width="500px" />
             </div>
           </div>
         </div>    

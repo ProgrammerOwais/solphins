@@ -34,6 +34,12 @@ Note that if you have 2fa enabled, you'll need to use a personal access token as
 
 https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+Note that if receiving a loading chunk error when deploying to localhost:
+Unhandled Runtime Error
+ChunkLoadError: Loading chunk 0 failed.
+
+Removing the /js/packages/web/.next dir and restarting resolves the issue.
+
 ### GitHub Pages with a custom domain
 
 If you have a custom domain linked to the GitHub Pages in your repo, then the instructions are the same as above, but your need to remove  `ASSET_PREFIX` from the deploy script:
