@@ -8,7 +8,7 @@ export const HomeView = () => {
   return (
     <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Boring Bananas Company</title>
+        <title>Wonky Whales</title>
         <link rel="icon" href="/images/favicon.jpg" />
 
         <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
@@ -25,21 +25,22 @@ bananas out known to man." key="ogdesc" />
         <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
         <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
 bananas out known to man." key="twdesc" />
-        <meta name="twitter:image" content="https://boringbananas.co/img/Hola.gif" key="twimage" />
+        <meta name="twitter:image" content="https://boringbananas.co/img/whales.gif" key="twimage" />
       </Head>
 
       <div id="about">
         <div className="mt-6 border-b-2 py-6">
           <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
             <div className="lg:w-1/2 w-3/4">
-              <h1 className="text-7xl Poppitandfinchsans text-white ">EVERYONE, meet <br/><span className="text-blau">boring bananas</span></h1>
-              <p className="text-2xl text-white my-6  montserrat">Here at <span className="text-5xl Poppitandfinch ">boring</span> <span className="text-blau text-5xl Poppitandfinchsans">Bananas</span> <span className="text-5xl Poppitandfinch">company</span>, we specialize in the world's <span className="text-span-2 font-bold">finest digital bananas</span>.<br />‍<br />We&#x27;ve put together a team spanning 3 continents, to bring you some of the most <br/>‍<span className="text-blau text-5xl Poppitandfinchsans">NUTRITIOUS </span><span className="text-5xl Poppitandfinch ">and</span><span className="text-blau text-5xl Poppitandfinchsans"> DELICIOUS</span> <br/>bananas out there.
-              </p>
+              <h1 className="text-7xl Poppitandfinchsans text-white "><span className="text-blau">Wonky Whales</span></h1>
+              <p className="text-2xl text-white my-6  montserrat">Collection of <strong>500</strong> randomly generated whale NFTs on the Solana blockchain.</p>
+              <p className="text-2xl text-white my-6  montserrat">Each whale has been uniquely generated based off a set of attributes that have a certain rarity associated with them.</p>
+              <p className="text-2xl text-white my-6  montserrat">The whales have been implemented using the Metaplex standard and will be available for viewing in Phantom, Sollet, Solflare, and all similar wallets directly after minting.</p>
               <p className="text-2xl text-white my-6  montserrat">
-              <strong>LAUNCH DATE:</strong> 29 June 2021. 2pm EST. <br />‍
-              <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 8888</strong> Bananas.<br/><strong>PRICE: 0.025 ETH </strong>each.</span></p>
+              <strong>LAUNCH DATE:</strong> 3 Sept 2021. 2pm EST. <br />‍
+              <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 500</strong> Whales.<br/><strong>PRICE: 2 SOL </strong>each.</span></p>
             </div>
-            <img className="lg:w-1/2 w-3/4" src="img/Hola.gif" width="500px" />
+            <img className="lg:w-1/2 w-3/4" src="img/whales.gif" width="500px" />
           </div>
           <div className="flex flex-col items-center">
           <a href="/#/mint-whales" className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">GO TO MINTING PAGE!</a>
@@ -48,7 +49,7 @@ bananas out known to man." key="twdesc" />
       </div>    
                 
       <div id="gallery" className="border-b-2">
-          <h2 className="text-blau Poppitandfinchsans text-7xl text-center">SIGNATURE SERIES GALLERY</h2>
+          <h2 className="text-blau Poppitandfinchsans text-7xl text-center">GALLERY</h2>
         <div className="flex flex-wrap  items-center mx-6   py-6 ">
           <div className="md:w-1/2">
             <div className=" border-blue-300 p-2"><img src="img/gallery1.jpeg" alt="" width="600px" className="feature-image"/></div>
