@@ -17,6 +17,8 @@ const DefaultActions = ({ vertical = false }: { vertical?: boolean }) => {
         flexDirection: vertical ? 'column' : 'row',
       }}
     >
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <Link to="/#about">
         <Button className="app-btn">About</Button>
       </Link>
@@ -34,6 +36,12 @@ const DefaultActions = ({ vertical = false }: { vertical?: boolean }) => {
       </Link>
       <Link to="/#faq">
         <Button className="app-btn">FAQ</Button>
+      </Link>
+      <Link>
+          <Button><a class="btn btn-large" href="_target"><i class="fa fa-twitter"></i></a></Button>
+      </Link>
+      <Link>
+          <Button><a class="btn btn-large" href="_target"><i class="fab fa-discord"></i></a></Button>
       </Link>
     </div>
   );
