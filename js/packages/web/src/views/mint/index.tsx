@@ -25,56 +25,62 @@ export const MintView = () => {
   const [whalePrice, setWhalePrice] = useState(0)
   
   async function callContractData(wallet) {
-    // let balance = await web3.eth.getBalance(wallet);
-    // setWalletBalance(balance)
-    const bananaContract = new window.web3.eth.Contract(ABI, ADDRESS)
-    setBananaContract(bananaContract)
-
-    const salebool = await bananaContract.methods.saleIsActive().call() 
-    // console.log("saleisActive" , salebool)
-    setSaleStarted(salebool)
-
-    const totalSupply = await bananaContract.methods.totalSupply().call() 
-    setTotalSupply(totalSupply)
-
-    const bananaPrice = await bananaContract.methods.bananaPrice().call() 
-    setBananaPrice(bananaPrice)
-   
+   console.log("Call contract")
   }
   
   async function mintWhale(how_many_whales) {
     if (whaleContract) {
- 
-      const price = Number(whalePrice)  * how_many_whales 
-
-      const gasAmount = await whaleContract.methods.mintBoringBanana(how_many_whales).estimateGas({from: walletAddress, value: price})
-      console.log("estimated gas",gasAmount)
-
-      console.log({from: walletAddress, value: price})
-
-      whaleContract.methods
-            .mintBoringBanana(how_many_whales)
-            .send({from: walletAddress, value: price, gas: String(gasAmount)})
-            .on('transactionHash', function(hash){
-              console.log("transactionHash", hash)
-            })
-          
+      console.log("Do mint")     
     } else {
-        console.log("Wallet not connected")
+      console.log("Wallet not connected")
     }
-    
   };
 
   return (
-    <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
-      <div className="md:w-2/3 w-4/5">
-        <div className="mt-6 border-b-2 py-6">
-          <div className="flex flex-col items-center">
-              <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none my-4 ">TOTAL WHALES MINTED:  <span className="text-blau text-6xl"> {<>{totalSupply}</> } / 500</span></span>
-              
-          </div> 
+    <html>
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    </head>
+    <body>
+    <div id="page">
+      <div id="author" class="bg-section">
+        <div class="container">
+          <div class="row top-line animate-box">
+            <div class="col-md-12 text-center heading">
+              <h2>Mint</h2><hr></hr>
+            </div>
+          </div>
+          <div class="row top-line animate-box">
+            <div class="col-md-12 text-center heading">
+              <h3>COMING SOON</h3>
+            </div>
+          </div>
         </div>
-      </div>  
-    </div>  
-    );
+      </div>
+
+      <footer id="footer" role="contentinfo">
+        <div class="container">
+          <div class="row copyright">
+            <div class="col-md-12 text-center">
+              <ul class="social-icons">
+                <li><a href="#" target="_blank"><i class="icon-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-discord"></i></a></li>
+              </ul>
+              <br></br>
+              <p>
+                <small class="block">&copy; 2021 All Rights Reserved</small> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div> 
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    </body>
+    </html>
+  );
 };

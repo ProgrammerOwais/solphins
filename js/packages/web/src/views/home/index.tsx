@@ -1,88 +1,132 @@
 import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
 
-import { Layout } from 'antd';
 import React from 'react';
 
 export const HomeView = () => {
   return (
-    <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Wonky Whales</title>
-        <link rel="icon" href="/favicon-32x32.jpg" />
-
-        <meta property="og:title" content="Wonky Whales" key="ogtitle" />
-        <meta property="og:description" content="Collection of 500 randomy generated whale NFTs built on the Solana blockchain" key="ogdesc" />
-        <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://www.wonkywhales.com" key="ogurl"/>
-        <meta property="og:image" content="https://www.wonkywhales.com/img/whales.gif" key="ogimage"/>
-        <meta property="og:site_name" content="https://www.wonkywhales.com" key="ogsitename" />
-
-        <meta name="twitter:card" content="summary_large_image" key="twcard"/>
-        <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
-        <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
-        <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
-        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="twdesc" />
-        <meta name="twitter:image" content="https://boringbananas.co/img/whales.gif" key="twimage" />
-      </Head>
-
-      <div id="about">
-        <div className="mt-6 border-b-2 py-6">
-          <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
-            <div className="lg:w-1/2 w-3/4">
-              <h1 className="text-7xl Poppitandfinchsans text-white "><span className="text-blau">Wonky Whales</span></h1>
-              <p className="text-2xl text-white my-6  montserrat">Collection of <strong>500</strong> randomly generated whale NFTs on the Solana blockchain.</p>
-              <p className="text-2xl text-white my-6  montserrat">Each whale has been uniquely generated based off a set of attributes that have a certain rarity associated with them.</p>
-              <p className="text-2xl text-white my-6  montserrat">The whales have been implemented using the Metaplex standard and will be available for viewing in Phantom, Sollet, Solflare, and all similar wallets directly after minting.</p>
-              <p className="text-2xl text-white my-6  montserrat">
-              <strong>LAUNCH DATE:</strong> 3 Sept 2021. 2pm EST. <br />‍
-              <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 500</strong> Whales.<br/><strong>PRICE: 2 SOL </strong>each.</span></p>
+    <html>
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    </head>
+    <body>
+    <div id="page">
+      <div id="author" class="bg-section">
+        <div class="container">
+          <div class="row top-line animate-box">
+            <div class="col-md-12 text-center heading">
+              <h2>Meet Solphins!</h2><hr></hr>
             </div>
-            <img className="lg:w-1/2 w-3/4" src="img/whales.gif" width="500px" />
           </div>
-          <div className="flex flex-col items-center">
-          <a href="/#/mint-whales" className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">GO TO MINTING PAGE!</a>
-          </div> 
-        </div>
-      </div>    
-                
-      <div id="gallery" className="border-b-2">
-          <h2 className="text-blau Poppitandfinchsans text-7xl text-center">GALLERY</h2>
-        <div className="flex flex-wrap  items-center mx-6   py-6 ">
-          <div className="md:w-1/2">
-            <div className=" border-blue-300 p-2"><img src="img/gallery1.jpeg" alt="" width="600px" className="feature-image"/></div>
+
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="author">
+                <div class="author-inner animate-box"><a href="#"><img src="img/whales.gif" width="500px" alt=""></img></a></div>
+                <div class="desc animate-box">
+                  <h2><span>Solphins</span></h2>
+                  <h3>Collection of 10,000 randomly generated dolphin NFTs on the Solana blockchain.</h3>
+                  <br></br>
+                  <p>Each Solphin has been uniquely generated based off a set of attributes that have a certain rarity associated with them.</p>
+                  <br></br>
+                  <p>The whales have been implemented using the Metaplex standard and will be available for viewing in Phantom, Sollet, Solflare, and all similar wallets directly after minting.</p>
+                  <br></br>
+                  <p>
+                    <strong>LAUNCH DATE: 3 Sept 2021. 2pm EST.</strong>
+                    <br></br>
+                    <strong>TOTAL SUPPLY: 10,000 Solphins.</strong>
+                    <br></br>
+                    <strong>PRICE: 2 SOL each.</strong>
+                  </p>
+                  <br></br>
+                  <p><a href="/#/mint-whales" class="btn btn-primary btn-outline">Go to minting page!</a></p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="md:w-1/2 flex flex-wrap">
-            <div className=" p-2 w-1/2"><img src="img/gallery2.jpeg" alt="" width="400px" className="feature-image"/></div>
-            <div className=" p-2 w-1/2"><img src="img/gallery3.jpeg" alt="" width="400px" className="feature-image"/></div>
-            <div className=" p-2 w-1/2"><img src="img/gallery4.jpeg" alt="" width="400px" className="feature-image"/></div>
-            <div className=" p-2 w-1/2"><img src="img/gallery5.jpeg" alt="" width="400px" className="feature-image"/></div>
+
+          <hr></hr>
+
+          <div class="row top-line animate-box">
+            <div class="col-md-12 heading">
+              <h2 class="text-center">Roadmap</h2><hr></hr>
+            </div>
+          </div>
+          <div class="row">
+            <section id="education" class="educationdiploma">
+              <div class="container">
+                <div class="row media">
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="education-overview">
+                        <h3>Phase 1</h3>
+                        <p><span class="glyphicon glyphicon-floppy-disk"></span>Mint</p>
+                    </div>
+                  </div>
+                  <div class="education-description col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <h3>The minting process is kicked off! Those ready to buy their unique Solphin can go ahead and do this through the minting page.</h3>
+                  </div>
+                </div>
+                <div class="row media">
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="education-overview">
+                        <h3>Phase 2</h3>
+                        <p><span class="glyphicon glyphicon-floppy-disk"></span>Traits</p>
+                    </div>
+                  </div>
+                  <div class="education-description col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <h3>Every Solphin is unique and awesome in its own way. However, now you can view the rarity based off each Solphin's unique set of attributes</h3>
+                  </div>
+                </div>
+                <div class="row media">
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="education-overview">
+                        <h3>Phase 3</h3>
+                        <p><span class="glyphicon glyphicon-floppy-disk"></span>Marketplace</p>
+                    </div>
+                  </div>
+                  <div class="education-description col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <h3>Those that missed out on minting their own Solphin can now buy them on a Metaplex compatible marketplace.</h3>
+                  </div>
+                </div>
+                <div class="row media">
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="education-overview">
+                        <h3>Phase 4</h3>
+                        <p><span class="glyphicon glyphicon-floppy-disk"></span>Contests and Prizes.</p>
+                    </div>
+                  </div>
+                  <div class="education-description col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <h3>For your support in our launch, we want to return the favor by gifting the community with Solphins. Through various contests, people will be able to add to their awesome collection.</h3>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
 
-      <div id="roadmap">
-        <img src="/img/Roadmap.png"/>   
-        <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
-        <ul className="">
-          <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 4 x 10 ETH donations: </span> The first of these will be made to <a target="_blank" href="https://girlswhocode.com/" className="underline text-black font-bold">Girls Who Code</a>, working to empower young women and <span className="font-bold"> close the gender gap </span> in technology. We know women are unrepresented in the NFT space - lets help to fix this! The remaining donations will be made via community vote using <a target="_blank" href="https://thegivingblock.com/" className="underline text-black font-bold">the Giving Block</a>.</li>
-          <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 20 ETH to Community Wallet: </span> Directed towards supporting creators that want to make a positive contribution to the NFT space.</li>
-          <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> Secondary sales: 5% royalty </span> (2.5% donation, 2.5% to the team). Secondary sales are directed towards charities voted on by the community monthly.</li>
-
-        </ul>
-        <p className="text-xl text-white my-6  montserrat"> In addition, we have been, and continue to make <span className="font-bold underline"> high quality content for the NFT community </span> through our <span className="font-bold underline"> PROJECT IN PROGRESS </span> series, to help budding creators to along their journey. 
-        </p>
-        <p className="text-xl text-white my-6  montserrat"> All fully annotated source code for image generation and the smart contract will be made available after launch as a community resource. 
-        </p>
-      </div>
-              
-      <div id="faq" className="mx-12 my-16 ">
-        <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">FAQ</h2>
-        <div className="flex justify-around flex-wrap">
-
+      <footer id="footer" role="contentinfo">
+        <div class="container">
+          <div class="row copyright">
+            <div class="col-md-12 text-center">
+              <ul class="social-icons">
+                <li><a href="#" target="_blank"><i class="icon-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-discord"></i></a></li>
+              </ul>
+              <br></br>
+              <p>
+                <small class="block">&copy; 2021 All Rights Reserved</small> 
+              </p>
+            </div>
+          </div>
         </div>
-      </div>   
-    </div>  
+      </footer>
+    </div> 
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    </body>
+    </html>
   );
 };
