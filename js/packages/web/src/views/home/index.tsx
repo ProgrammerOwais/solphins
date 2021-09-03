@@ -20,14 +20,14 @@ export const HomeView = () => {
           <div class="row">
             <div class="col-md-12">
               <div class="author">
-                <div class="author-inner animate-box"><a href="#"><img src="img/whales.gif" width="450px" alt=""></img></a></div>
+                <div class="author-inner animate-box"><a href="#"><img src="img/solphin.gif" width="450px" alt=""></img></a></div>
                 <div class="desc animate-box">
                   <h2><span>Solphins</span></h2>
                   <h3>Collection of 10,000 randomly generated dolphin NFTs on the Solana blockchain.</h3>
                   <br></br>
                   <p>Each Solphin has been uniquely generated based off a set of attributes that have a certain rarity associated with them.</p>
                   <br></br>
-                  <p>The whales have been implemented using the Metaplex standard and will be available for viewing in Phantom, Sollet, Solflare, and all similar wallets directly after minting.</p>
+                  <p>The Solphins have been implemented using the Metaplex standard and will be available for viewing in Phantom, Sollet, Solflare, and all similar wallets directly after minting.</p>
                   <br></br>
                   <p>
                     <strong>LAUNCH DATE: 3 Sept 2021. 2pm EST.</strong>
@@ -37,7 +37,7 @@ export const HomeView = () => {
                     <strong>PRICE: 2 SOL each.</strong>
                   </p>
                   <br></br>
-                  <p><a href="/#/mint-whales" class="btn btn-primary btn-outline">Go to minting page!</a></p>
+                  <p><a href="/#/mint-solphins" class="btn btn-primary btn-outline">Go to minting page!</a></p>
                 </div>
               </div>
             </div>

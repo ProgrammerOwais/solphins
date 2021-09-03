@@ -11,9 +11,9 @@ export const MintView = () => {
   const [walletAddress, setWalletAddress] = useState(null)
 
   // FOR MINTING
-  const [how_many_whales, set_how_many_whales] = useState(1)
+  const [how_many_solphins, set_how_many_solphins] = useState(1)
 
-  const [whaleContract, setWhaleContract] = useState(null)
+  const [solphinsContract, setSolphinsContract] = useState(null)
 
   // INFO FROM SMART Contract
 
@@ -21,14 +21,14 @@ export const MintView = () => {
 
   const [saleStarted, setSaleStarted] = useState(false)
 
-  const [whalePrice, setWhalePrice] = useState(0)
+  const [solphinsPrice, setSolphinsPrice] = useState(0)
   
   async function callContractData(wallet) {
    console.log("Call contract")
   }
   
-  async function mintWhale(how_many_whales) {
-    if (whaleContract) {
+  async function  mintSolphin(how_many_solphins) {
+    if (solphinsContract) {
       console.log("Do mint")     
     } else {
       console.log("Wallet not connected")

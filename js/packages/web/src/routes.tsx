@@ -15,17 +15,17 @@ export function Routes() {
           <Switch>
             <Route
               exact
-              path="/mint-whales"
+              path="/mint-solphins"
               component={() => <MintView />}
             />
             <Route
               exact
-              path="/whale-traits"
+              path="/solphin-traits"
               component={() => <TraitsView />}
             />
             <Route
               exact
-              path="/my-whales"
+              path="/my-solphins"
               component={() => <CollectionView />}
             />
             <Route path="/" component={() => <HomeView />} />

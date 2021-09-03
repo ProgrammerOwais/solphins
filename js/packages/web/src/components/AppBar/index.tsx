@@ -16,9 +16,9 @@ export const AppBar = () => {
         <div class="top-menu menu-1 text-center">
           <ul>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/mint-whales">Mint</Link></li>
-            <li><Link to="/whale-traits">Traits</Link></li>
-            <li><Link to="/my-whales">My Solphins</Link></li>
+            <li><Link to="/mint-solphins">Mint</Link></li>
+            <li><Link to="/solphin-traits">Traits</Link></li>
+            <li><Link to="/my-solphins">My Solphins</Link></li>
           </ul>
         </div>
         <div class="top-social menu-1 text-right">
