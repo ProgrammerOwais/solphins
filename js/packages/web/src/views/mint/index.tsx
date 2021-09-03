@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
 import { useState, useEffect } from 'react';
 
 import { Layout } from 'antd';

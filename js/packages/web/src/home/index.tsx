@@ -1,3 +1,4 @@
+import Head from 'next/head'
 
 import React from 'react';
 
@@ -18,9 +19,9 @@ export const HomeView = () => {
           </div>
 
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8 col-md-offset-2">
               <div class="author">
-                <div class="author-inner animate-box"><a href="#"><img src="img/whales.gif" width="450px" alt=""></img></a></div>
+                <div class="author-inner animate-box"><a href="#"><img src="img/whales.gif" width="500px" alt=""></img></a></div>
                 <div class="desc animate-box">
                   <h2><span>Solphins</span></h2>
                   <h3>Collection of 10,000 randomly generated dolphin NFTs on the Solana blockchain.</h3>

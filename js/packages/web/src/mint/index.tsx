@@ -1,9 +1,41 @@
 import Head from 'next/head'
+import 'tailwindcss/tailwind.css'
+import { useState, useEffect } from 'react';
 
 import { Layout } from 'antd';
 import React from 'react';
 
-export const TraitsView = () => {
+export const MintView = () => {
+  // FOR WALLET
+  const [signedIn, setSignedIn] = useState(false)
+
+  const [walletAddress, setWalletAddress] = useState(null)
+
+  // FOR MINTING
+  const [how_many_whales, set_how_many_whales] = useState(1)
+
+  const [whaleContract, setWhaleContract] = useState(null)
+
+  // INFO FROM SMART Contract
+
+  const [totalSupply, setTotalSupply] = useState(0)
+
+  const [saleStarted, setSaleStarted] = useState(false)
+
+  const [whalePrice, setWhalePrice] = useState(0)
+  
+  async function callContractData(wallet) {
+   console.log("Call contract")
+  }
+  
+  async function mintWhale(how_many_whales) {
+    if (whaleContract) {
+      console.log("Do mint")     
+    } else {
+      console.log("Wallet not connected")
+    }
+  };
+
   return (
     <html>
     <head>
@@ -15,7 +47,7 @@ export const TraitsView = () => {
         <div class="container">
           <div class="row top-line animate-box">
             <div class="col-md-12 text-center heading">
-              <h2>Traits</h2><hr></hr>
+              <h2>Mint</h2><hr></hr>
             </div>
           </div>
           <div class="row top-line animate-box">

@@ -1,9 +1,10 @@
 import Head from 'next/head'
+import 'tailwindcss/tailwind.css'
 
 import { Layout } from 'antd';
 import React from 'react';
 
-export const TraitsView = () => {
+export const CollectionView = () => {
   return (
     <html>
     <head>
@@ -15,7 +16,7 @@ export const TraitsView = () => {
         <div class="container">
           <div class="row top-line animate-box">
             <div class="col-md-12 text-center heading">
-              <h2>Traits</h2><hr></hr>
+              <h2>My Solphins</h2><hr></hr>
             </div>
           </div>
           <div class="row top-line animate-box">
@@ -32,7 +33,7 @@ export const TraitsView = () => {
             <div class="col-md-12 text-center">
               <ul class="social-icons">
                 <li><a href="#" target="_blank"><i class="icon-twitter"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-discord"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-discord"></i></a></li>
               </ul>
               <br></br>
               <p>
