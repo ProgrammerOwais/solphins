@@ -11,15 +11,15 @@ export const TraitsView = () => {
     </head>
     <body>
     <div id="page">
-      <div id="author" class="bg-section">
-        <div class="container">
-          <div class="row top-line animate-box">
-            <div class="col-md-12 text-center heading">
+      <div id="author" className="bg-section">
+        <div className="container">
+          <div className="row top-line animate-box">
+            <div className="col-md-12 text-center heading">
               <h2>Traits</h2><hr></hr>
             </div>
           </div>
-          <div class="row top-line animate-box">
-            <div class="col-md-12 text-center heading">
+          <div className="row top-line animate-box">
+            <div className="col-md-12 text-center heading">
               <h3>COMING SOON</h3>
             </div>
           </div>
@@ -27,16 +27,16 @@ export const TraitsView = () => {
       </div>
 
       <footer id="footer" role="contentinfo">
-        <div class="container">
-          <div class="row copyright">
-            <div class="col-md-12 text-center">
-              <ul class="social-icons">
-                <li><a href="#" target="_blank"><i class="icon-twitter"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-discord"></i></a></li>
+        <div className="container">
+          <div className="row copyright">
+            <div className="col-md-12 text-center">
+              <ul className="social-icons">
+                <li><a href="https://twitter.com/SolphinsNFT" target="_blank"><i className="icon-twitter"></i></a></li>
+                <li><a href="https://discord.gg/6ue4YcBTpC" target="_blank"><i className="fab fa-discord"></i></a></li>
               </ul>
               <br></br>
               <p>
-                <small class="block">&copy; 2021 All Rights Reserved</small> 
+                <small className="block">&copy; 2021 All Rights Reserved</small> 
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ export const TraitsView = () => {
       </footer>
     </div> 
 
-    <div class="gototop js-top">
-      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    <div className="gototop js-top">
+      <a href="#" className="js-gotop"><i className="icon-arrow-up"></i></a>
     </div>
 
     </body>
